@@ -1,0 +1,22 @@
+<?php
+    return [
+        'AttendanceRecord' => '勤怠レコード',
+        'SelectMonthYearIdplaceholder' => '年月選択',
+        'searchButton' => '検索',
+        'Date' => '日付',
+        'CheckIn'=>'チェックイン',
+        'CheckOut' => "チェックアウト",
+        'BreakTime' => '休憩時間',
+        'Duration' => '総計',
+        'OverTime' => '残業',
+        'AdditionalTimeRequestButton' => '勤怠補充登録',
+        'yes' => 'はい',
+        'no' => 'いいえ',
+        'dialog' => 'チェックアウトしてもよろしいですか？',
+        'additional_date' => '登録日は既に存在しました',
+        'checkin_success' => 'チェックイン時間ができました。',
+        'checkout_success' => 'チェックアウト時間ができました。',
+        'AdditionalTimeRequestTitle' => '勤怠補充登録',
+        'cancel' => 'キャンセル',
+        'Register' => '登録',
+    ];

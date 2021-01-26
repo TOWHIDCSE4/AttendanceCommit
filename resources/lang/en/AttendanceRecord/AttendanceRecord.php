@@ -1,0 +1,22 @@
+<?php
+return [
+    'AttendanceRecord' => 'Attendance Record',
+    'SelectMonthYearIdplaceholder' => 'Select Year and Month',
+    'searchButton' => 'Search',
+    'Date' => 'Date',
+    'CheckIn'=>'Check In',
+    'CheckOut' => "Check Out",
+    'BreakTime' => 'Break Time',
+    'Duration' => 'Duration',
+    'OverTime' => 'Over Time',
+    'AdditionalTimeRequestButton' => 'AdditionalTimeRequest',
+    'yes' => 'YES',
+    'no' => 'NO',
+    'dialog' => 'Are you sure want to checkout ?',
+    'additional_date' => 'This date Already exist',
+    'checkin_success' => 'Checkin Time Success',
+    'checkout_success' => 'Check Out Time Success',
+    'AdditionalTimeRequestTitle' => 'Additional Time Request ',
+    'cancel' => 'Cancel',
+    'Register' => 'Register',
+];

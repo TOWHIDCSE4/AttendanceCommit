@@ -1,0 +1,181 @@
+body{
+    white-space: nowrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.wrapper{
+    margin-top: 0px;
+}
+.wrapper a{
+    color: black;
+    text-decoration: none;
+}
+/*login*/
+.wraplogin{
+    margin-top: 20px;
+    width: 100%;
+}
+.wraplogin a{
+    color: white;
+    text-decoration: none;
+}
+.wraplogin a:hover{
+    /*color: white;*/
+    text-decoration: none;
+}
+.wraplogin button{
+    width: 50%;
+    height: 40px;
+    margin-top: -4px;
+}
+.wraplogin .col-md-3{
+    padding-left: 40px;
+    line-height: 40px;
+}
+/*end login*/
+
+/*MasterPage*/
+.navbar{
+    margin-top: 5px;
+    height: 60px;
+    margin-bottom: 50px;
+}
+.navbar-nav li:last-child{
+    padding-right: 14px;
+}
+.nav-item{
+    margin: 0px;
+    padding: 10px;
+}
+
+.sidenav {
+    list-style: none;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #383d41;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-left: 0px;
+}
+.sidenav li {
+    border-bottom: 1px dotted white;
+}
+.sidenav li:last-child {
+    border-bottom: none;
+}
+.sidenav li a{
+    color: white;
+}
+#menu_right{
+    float: right;
+    right: 0px;
+    top: 0px;
+    position: fixed;
+}
+.main{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    left: -50px;
+    padding-bottom: 50px;
+    z-index: -1;
+}
+.card{
+    bottom: 50px;
+}
+
+.change_pass{
+    list-style: none;
+    display: none;
+    position: absolute;
+    padding: 0px;
+    margin-top: 10px;
+    margin-left: -10px;
+    background-color: #6c757d;
+    z-index: 1000;
+}
+.change_pass img{
+    border: 1px solid black;
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+.change_pass tr td{
+    text-align: center;
+    padding: 5px;
+}
+.nav-item:hover .change_pass{
+    display: block;
+}
+#user_table #user_name{
+    white-space: nowrap;
+}
+/*End MasterPage*/
+
+.custom_time_select{
+    padding: 5px;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    margin: 0px;
+}
+.time_select{ !important;
+    margin: 0px;
+    padding: 0px 6px;
+}
+.card-header{
+    color: white;
+}
+
+/* responsive mobile*/
+@media ( max-width: 800px){
+    /*Login*/
+
+    /*MasterPage*/
+    #menu_right{
+        display: block;
+        position: fixed;
+        top: 0px;
+    }
+    #menu_right li{!important;
+        float: left;
+    }
+    .main{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        margin-top: 100px;
+        left: 20px;
+        padding-bottom: 50px;
+        z-index: -1;
+    }
+    .card{
+        bottom: 50px;
+        width: 150%;
+        padding: 5px;
+    }
+}
+@media ( max-width: 600px){
+    /*Login*/
+
+    /*MasterPage*/
+    #menu_right{
+        right: -30px;
+    }
+    .change_pass{
+        width: 75%;
+    }
+    .change_pass button{
+        /*width: 90%;*/
+        font-size: 10px;
+    }
+    .change_pass img{
+        width: 50px;
+        height: 50px;
+    }
+}

@@ -1,0 +1,14 @@
+<?php
+    return[
+        'title'=>'休暇承認',
+        'from'=>'から',
+        'to'=>'まで',
+        'name'=>'社員名',
+        'holidayType'=>'休日タイプ',
+        'time'=>'時間',
+        'action'=>'動作',
+        'searchBtn'=>'検索',
+        'approveBtn'=>'承認する',
+        'rejectBtn'=>'承認しない',
+        'M01'=>'終了日は開始日より後でなければなりません',
+    ];
